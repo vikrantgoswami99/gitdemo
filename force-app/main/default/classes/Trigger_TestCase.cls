@@ -1,4 +1,5 @@
-@isTest
+/*
+* @isTest
 public class CopyBillingAddressTest {
 
 @isTest static void positiveTest(){
@@ -13,11 +14,8 @@ System.assertEquals(acc.BillingCity, acc.ShippingCity);
 System.assertEquals(acc.BillingStreet, acc.ShippingStreet);
 }
 }
+*/
 
-
-
-/*
-*
 @IsTest(SeeAllData=false)
 public class Trigger_TestCase {
     public static testmethod void myTriggerTestMeth(){
@@ -44,5 +42,3 @@ public class Trigger_TestCase {
         System.assertEquals(acc1.BillingStreet, acc1.ShippingStreet);
     }
 }
-
-*/
